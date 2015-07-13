@@ -1,0 +1,53 @@
+t app
+App test command list:
+        msg
+        key
+        jack
+        mempool
+        curapp
+        test
+        linux_usb
+        dzoom
+        still_cap
+        fdstb
+        hwfdlog
+        cfaadj
+        profile
+        printts
+        usb_msc2fio
+        sensor_sb
+        refresh_mode
+        adb
+        photo_size
+        spot_meter
+        video_settings
+        power_saving
+        power_saving_en [0/1]
+        mtp_connected [hake as GP PC tool connected]
+        tag [add/pb_add/pb_remove]
+        overtemp_en [0/1]
+        show_batt [0/1]
+        show_temp [0/1]
+        show_temp_led [0/1] [source] [low] [high] (source: 0-dsp,1-sensor,2-pmic,3-bat)
+        log_temp [0/1]
+        jeita_en [0/1]
+        video_format
+        button
+        msc_wp_dynamic [driver - 0:A, 1:B..] [0/1]
+        msc_wp [0/1]
+        mtp [0/1]
+        usb_switch [mtp/msc]
+        pcsw_up [iso_filename]
+        usb [mtp/msc/rs232/linux/linux_once]
+        audio_effect [stereo/awe/channel/awe_config/awe_test_mode/awe_dc/awe_gain/channel_config/aac_encode] [0/1]
+        enc_frms
+        protune [on|off]
+        protune_color [gopro|flat]
+        protune_sharpness [high|medium|low]
+        protune_white_balance [auto|3000K|5500K|6500K|native]
+        protune_iso_limit [400|1600]
+        protune_ev_comp <ev> (-2.0 <= ev <= +2.0)
+        fw_version
+        delete_dcim
+        factory_reset
+        pref_reset
