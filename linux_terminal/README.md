@@ -1,3 +1,4 @@
+#readme.md
 Get Hypoxic LLC enable Linux Terminal on GoPro HERO4 Session
 License in LICENSE file
 ------------------------------------------------------------
