@@ -1,4 +1,4 @@
-#Basic dump of commands on the GoPro HERO4 Session
+#Basic dump of test commands on the GoPro HERO4 Session
 Usage: t app test <option>
 Test option list:
         loop_test
