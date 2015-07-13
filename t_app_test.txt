@@ -1,0 +1,66 @@
+#Basic dump of commands on the GoPro HERO4 Session
+Usage: t app test <option>
+Test option list:
+        loop_test
+        profiling
+        debug_dump
+        csc_vin
+        csc_vout
+        osd_bmp
+        vin_rotate
+        disp_rotate
+        thm_tv_disp
+        thm2_stop_update
+        jack_switch_pb
+        pb_stream
+        boss_boot [0/1]
+        set_pes_dly
+        set_stream
+        set_photo_size 12M_W or 7M_W or 7M_M or 5M_M
+        set_burst_mode 3/1 or 5/1 or 10/1 or 10/2
+        set_fov 100 or 75 or 50
+        set_slowshutter_cap 1 or 2 or 4 or 8
+        sensor_temp_clr : clear register data
+        sensor_temp_pow_on : power on temperature sensor
+        sensor_temp_pow_off : power on temperature sensor
+        sensor_temp_start_conv : temperature sensor conversion start
+        sensor_temp_get_data : get value from temperature sensor
+        change_sensor_mode <nos> <mode> : test with non-OS sensor mode
+        appc_log <option>
+        set_sec_fps frame_rate
+        oled <option>
+        led force [1:enable,0:disable] [1:on,0:off] [led_id]
+        fp_init
+        fp_print
+        fp_path <index>
+        buzzer [100/70/40/0]
+        buzzer_play [count]
+        set_volume <option>
+        get_volume
+        ddr_sr
+        pmic_dump
+        shutdown
+        lpshutdown [mV]
+        lpshutdown_en [0/1]
+        reset_onkey_timer
+        lcd_backlight [0|1]
+        lcd_en [0|1]
+        beep_en [0|1]
+        beep [0 ~ 3]
+        wifi_reset
+        ovtemp [pmic | sensor | dsp | batt]
+        timcode [0/1] [code]
+        piv
+        wifi2mode : set 1 for mode, other for wifi
+        cfa [enable:1 disable:0] [Width] [Height]
+        pll_reg_dump
+        edit_crop2new [start] [end] unit:ms
+        rawcap_enable [0/1]
+        force_cap [0/1/2] (0:disable, 1:SGOP, 2:LGOP)
+        tlv320_vol [0 ~ 9]
+        touch_dbg [0|1]
+        osd_white [0|1]
+        magenta [start|stop|reset]
+        raw [0|1] 0:disable, 1:enable,
+        Note: return curr value when no paramter is given.
+        set_audio_delay_count [count]
