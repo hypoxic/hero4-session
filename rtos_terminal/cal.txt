@@ -1,0 +1,6 @@
+# HYPOXIC https://github.com/hypoxic/hero4-session
+# Makes the GoPro Session connect as a serial device
+_tapp test led force 1 1 0
+_tapp test led force 1 0 0
+_tapp usb rs232
+_buzz

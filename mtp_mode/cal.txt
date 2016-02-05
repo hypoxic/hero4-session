@@ -1,0 +1,5 @@
+# HYPOXIC https://github.com/hypoxic/hero4-session
+_tapp test led force 1 1 0
+_tapp test led force 1 0 0
+_tapp usb mtp
+_buzz
